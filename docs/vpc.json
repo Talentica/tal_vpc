@@ -1,0 +1,25 @@
+ {
+
+  "region": "eu-west-1",
+
+  "vpc": {
+    "cidr": "20.0.0.0/16",
+    "vpcid": "TAL_STAG_001"
+  },
+
+  "publicsubnet": [
+
+    {
+      "name" : "PUB01",
+      "cidr": "20.0.0.0/24",
+      "az": "eu-west-1a"
+    },
+
+    {
+      "name" : "PUB02",
+      "cidr": "20.0.1.0/24",
+      "az":"eu-west-1b"
+    }
+
+  ]
+ }

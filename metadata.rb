@@ -1,0 +1,7 @@
+name             'tal_vpc'
+maintainer       'Talentica Software Pvt. ltd'
+maintainer_email 'www.talentica.com'
+license          'All rights reserved'
+description      'Installs/Configures aws_vpc'
+long_description 'Installs/Configures aws_vpc'
+version          '0.1.0'

@@ -10,7 +10,7 @@ AWS
 
 default[:aws_vpc][:region] = 'us-west-2'
 default[:aws_vpc][:vpc] = ''
-default[:aws_vpc][:vpc_cidr] = ''
+default[:aws_vpc][:vpc_cidr] = '10.0.0.0/16'
 default[:aws_vpc][:public_subnet] = []
 default[:aws_vpc][:private_subnet] = []
 
